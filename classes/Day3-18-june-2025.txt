@@ -1,0 +1,85 @@
+Agenda:
+1. Usage of different models
+using Huggingface
+sentiment analysis
+text summarization
+2. Usage of LangChain
+3. Vector databases
+SQL - NoSQL
+chromadb
+4. Retrieval Augmented Generation (RAG)
+5. AI for research
+
+https://kaushalya.tech/
+git
+repositories
+https://github.com/raghuprasadks/fdp-genai-ait-june2025
+
+git
+https://git-scm.com/downloads
+GitHub
+https://github.com/ - signup
+
+run the summarize program
+
+in gemini
+i have a chapter1.txt. I want to read the file
+and summarize
+
+Steps
+1. Download and install git
+2. Sign up and login to GitHub.com
+3. Create a new repository
+fdbaitgitdemo
+
+echo "# fdbaitgitdemo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/raghuprasadks/fdbaitgitdemo.git
+git push -u origin main
+
+create demogit folder in your local system
+open this folder in command prompt
+add test.txt file
+git init
+git add test.txt
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/raghuprasadks/fdbaitgitdemo.git
+git push -u origin main
+
+git config --global user.name "John Doe"
+git config --global user.email "john.doe@example.com"
+
+control panel
+user accounts
+credential manager
+windows credentials
+git remove
+
+for every change in a file or whenever new file is created
+
+git status
+git add .
+git commit -m "modified the file"
+git push
+
+to clone a repository
+
+git clone https://github.com/raghuprasadks/fdp-genai-ait-june2025.git
+
+git pull
+
+
+3. Vector databases
+SQL - NoSQL
+chromadb
+
+https://www.trychroma.com/
+
+chromadb commands
+
+pip install chromadb

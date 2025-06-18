@@ -1,0 +1,28 @@
+Sarvam is dedicated to building the bedrock of Sovereign AI for India. We believe that Generative AI as a new paradigm in computing will be a fundamental driver of societal and economic progress. We see this as an early-stage technology that will rapidly improve and pervade increasingly larger spheres of our personal, professional, and political lives. Given the foundational nature of this technology, India, with its economic, demographic, and geopolitical importance, should not be just a consumer or adopter but an active participant in building and shaping the narrative of this technology.
+
+Towards this end, we see merit in a ‘Sovereign AI Ecosystem’ in India, whose imperative is not to decouple from the rest of the world but to provide strategic autonomy in building foundational components and tailoring them to the country’s unique needs. While we expect Sovereign AI to be a key consideration globally, India has three key strengths to be a prime mover. First, India has established a unique government-led template in building digital public goods like Aadhaar and UPI, platforms that serve over a billion people with speed, trust, and scale. It sets the stage for India to lead in building population-scale AI systems. Second, India has one of the world's fastest-growing developer communities and a deep bench of AI researchers and engineers. With the right focus on technology enablement and market access, this talent base can build for India and the world. Third, Indian enterprises, with their strong focus on ROI and value creation, can collaborate with AI innovators to build a diverse range of high-impact AI products.
+
+At Sarvam, we are invested in helping shape this Sovereign AI ecosystem in India. We are building a Generative AI stack spanning:
+
+1. Foundational models that are proficient in Indian languages and accurate in reasoning tasks
+2. Platforms across cloud and edge for efficiently serving these models
+3. Applications that leverage these models such as our Conversational and Reasoning Agents
+‍
+We are grateful for the support from MeitY’s IndiaAI Mission in building foundational multimodal models from scratch. This support goes a long way in catalyzing investment in the country’s compute infrastructure and in incentivizing development of R&D capabilities. Two centers from IIT Madras, AI4Bharat and CeRAI, will be close collaborators with us in developing these models.
+
+Sovereign AI is a nationwide, collective effort. The models we train as part of the IndiaAI Mission will be open-sourced under permissible licenses.
+
+In addition to the final foundational models trained from scratch, starting this week we will also have weekly drops of open-source models along with technical reports detailing our research findings. The first such weekly drop is coming soon and will demonstrate our work in post-training models for Indian language accuracy and reasoning tasks. We’ll host the models on our API platform and invite the community to give feedback via interactive forums.
+
+We’ve seen strong interest from organisations that want to contribute meaningfully to our mission of building foundational AI for India. Sarvam Circle is our invitation to individuals and institutions to become active collaborators in this effort. We are now looking to formalise partnerships across four key tracks:
+
+• Collaborating with researchers from across the world
+• Building custom, domain-specific models on private datasets
+• Enabling technical education, with a focus on model training
+• Developing AI applications for the impact sector
+‍
+If you or your organisation would like to collaborate, write to us at jointhecircle@sarvam.ai
+
+This is certainly an exciting time to be building. And more so, building in India.
+
+‍
