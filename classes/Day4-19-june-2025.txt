@@ -85,6 +85,15 @@ pip install streamlit PyPDF2 requests langchain langchain-community langchain-co
 
 streamlit run 7_genai-rag-cohere.py
 
+create a pdf file related your college/work
+in place of ipc pdf give the name of your pdf
+re run the program
+change the name of the chatbot
+
+
+pip freeze > requirements.txt  
+
+pip install -r requirements.txt
 
 
 
