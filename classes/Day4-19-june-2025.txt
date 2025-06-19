@@ -90,7 +90,6 @@ in place of ipc pdf give the name of your pdf
 re run the program
 change the name of the chatbot
 
-
 pip freeze > requirements.txt  
 
 pip install -r requirements.txt
