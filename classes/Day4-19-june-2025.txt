@@ -56,9 +56,34 @@ programs\genailab
 
 streamlit run 7_genai-rag-cohere.py
 
+fdpaittranslate
+
+virtual environment
+1. create a folder virtualenvdemo
+2. open this folder in visual studio code
+3. in the terminal type following command
+python -m venv mychatbot
+to activate the virtual environment
+.\mychatbot\Scripts\activate
+in case you get an error
+https:/go.microsoft.com/fwlink/?LinkID=135170
+open this in browser
+
+search for remotesigned
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+
+type power in windows search
+
+right click on windowspowershell
+open as administrator
+paste and click execution policy command
+press Y
 
 
+pip install streamlit PyPDF2 requests langchain langchain-community langchain-cohere cohere python-dotenv faiss-cpu
 
+streamlit run 7_genai-rag-cohere.py
 
 
 
