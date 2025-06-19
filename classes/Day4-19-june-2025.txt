@@ -36,6 +36,31 @@ https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
 
 https://api.openweathermap.org/data/2.5/weather?q=bangalore&appid=384db1ce93218e20fd384d3016372238
 
+kaushalya.tech
+https://kaushalya.tech/ekaushalya.html
+ekaushalya.kaushalya.tech
+
+MERN - Mongo Express React Node
+Python  + API's for llm
+openai llm
+
+fdpaidemo@gmail.com
+test@123
+
+platform.openai.com
+
+RAG
+
+Retrieval-Augmented Generation (RAG)
+programs\genailab
+
+streamlit run 7_genai-rag-cohere.py
+
+
+
+
+
+
 
 
 
