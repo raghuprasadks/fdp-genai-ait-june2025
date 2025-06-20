@@ -20,6 +20,23 @@ https://huggingface.co/docs/smolagents/index
 https://huggingface.co/tasks/text-generation
 inference provider
 
+step 1 - unzip huggingfacehub folder
+step 2 - unzip frontend folder
+step 3 - cd to huggingfacehub
+install following libraries
+pip install flask flask-cors huggingface-hub
+python app.py
+
+your back end will be running
+
+step 4 - unzip frontend
+open chatbot.html in the browser
+start chatting..
+happy chatting
+
+
+
+
 
 pip install flask-cors
 
