@@ -1,2 +1,28 @@
 Agenda:
+1. Deploy a sample chatbot to huggingface spacers
+https://huggingface.co/
+
+https://huggingface.co/spaces/raghuprasadks/fdpaittranslate
+
+create fdpaittranslate folder
+click on files
+download and copy the files downloaded from above link
+
+2. Login to huggingface.co
+click on your profile
+click on new space
+aittranslator
+select sdk
+click gradio
+blank
+space hardware
+CPU basic-2vCPU - FREE
+public
+create space
+click on files
+upload the files which you have downloaded
+
+2. Fullstack application using webapi
+provided by huggingface_hub
+3. Wayforward
 Linkedin
