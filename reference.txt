@@ -20,13 +20,8 @@ https://huggingface.co/docs/smolagents/index
 https://huggingface.co/tasks/text-generation
 inference provider
 
-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
-
-set HF_TOKEN="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"
 
 pip install flask-cors
-
-
 
 import os
 from huggingface_hub import InferenceClient
