@@ -13,3 +13,37 @@ https://www.datacamp.com/tutorial/loss-function-in-machine-learning
 https://www.geeksforgeeks.org/machine-learning/activation-functions-neural-networks/
 https://www.sarvam.ai/blogs/indias-sovereign-llm
 https://docs.sarvam.ai/api-reference-docs/cookbook/starter-notebooks/stt-api-tutorial
+
+https://huggingface.co/welcome
+https://huggingface.co/docs/smolagents/index
+
+https://huggingface.co/tasks/text-generation
+inference provider
+
+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
+
+set HF_TOKEN="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"
+
+pip install flask-cors
+
+
+
+import os
+from huggingface_hub import InferenceClient
+
+client = InferenceClient(
+    provider="nebius",
+    api_key=os.environ["HF_TOKEN"],
+)
+
+completion = client.chat.completions.create(
+    model="mistralai/Mistral-Nemo-Instruct-2407",
+    messages=[
+        {
+            "role": "user",
+            "content": "What is the capital of France?"
+        }
+    ],
+)
+
+print(completion.choices[0].message)

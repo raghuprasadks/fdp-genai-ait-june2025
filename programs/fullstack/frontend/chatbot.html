@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mistral Chatbot</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f4f4f4; }
+        #chatbox { width: 400px; margin: 40px auto; background: #fff; padding: 20px; border-radius: 8px; }
+        #messages { height: 300px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; margin-bottom: 10px; }
+        .user { color: blue; }
+        .bot { color: green; }
+        #input { width: 80%; padding: 8px; }
+        #send { padding: 8px 16px; }
+    </style>
+</head>
+<body>
+<div id="chatbox">
+    <div id="messages"></div>
+    <input type="text" id="input" placeholder="Type your message..." />
+    <button id="send">Send</button>
+</div>
+<script>
+    const messages = document.getElementById('messages');
+    const input = document.getElementById('input');
+    const send = document.getElementById('send');
+
+    function appendMessage(sender, text) {
+        const div = document.createElement('div');
+        div.className = sender;
+        div.textContent = sender + ": " + text;
+        messages.appendChild(div);
+        messages.scrollTop = messages.scrollHeight;
+    }
+
+    send.onclick = function() {
+        const userMsg = input.value.trim();
+        if (!userMsg) return;
+        appendMessage('user', userMsg);
+        input.value = '';
+        fetch('http://127.0.0.1:5000/chat', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ message: userMsg })
+        })
+        .then(response => response.json())
+        .then(data => appendMessage('bot', data.response))
+        .catch(() => appendMessage('bot', 'Error: Could not reach server.'));
+    };
+
+    input.addEventListener("keyup", function(event) {
+        if (event.key === "Enter") send.onclick();
+    });
+</script>
+</body>
+</html>
